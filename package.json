@@ -1,0 +1,17 @@
+{
+  "name": "codenames-discord-notifier",
+  "version": "1.0.0",
+  "description": "Posts to Discord when a Twitch streamer goes live in Codenames with English as the stream language",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
